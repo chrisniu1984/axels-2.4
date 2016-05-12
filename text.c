@@ -571,8 +571,9 @@ void print_help()
 
 void print_version()
 {
-	printf( _("Axel version %s (%s)\n"), AXEL_VERSION_STRING, ARCH );
+	printf( _("Axel version %s (%s) - https mod\n"), AXEL_VERSION_STRING, ARCH );
 	printf( "\nCopyright 2001-2002 Wilmer van der Gaast.\n" );
+	printf( "\nHTTPS supports by niu.chenguang <chrisniu1984@gmail.com>\n" );
 }
 
 /* Print any message in the axel structure				*/
